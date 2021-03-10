@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	align-items: flex-end;
+	height: 800px;
+	/*flex-wrap: nowrap;*/
+  /*flex: 1 1;*/
+}
+.round {
+  width: 10%;
+  height: 100px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+.quare {
+  margin-left: 1%;
+	margin-top: 1%;
+  width: 75%;
+  height: 100px;
+  background-color: lightgreen;
+}
