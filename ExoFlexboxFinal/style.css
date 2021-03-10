@@ -1,0 +1,41 @@
+body {
+  padding: 5%;
+  width: 90vw;
+}
+.header {
+  order: 1;
+  height: 15vh;
+  background-color: olivedrab;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  order: 3;
+  height: 10vh;
+  background-color: mistyrose;
+}
+.center {
+  display: flex;
+  height: 70vh;
+}
+.aside {
+  flex: 1 0px;
+  background-color: yellow;
+}
+.section {
+  flex: 2 0px;
+  background-color: deepskyblue;
+}
+.article {
+  flex: 1 0px;
+  background-color: tomato;
+}
+.footer {
+  display: flex;
+  height: 15vh;
+  background-color: skyblue;
+}
+ul {
+  flex-grow: 2;
+}
